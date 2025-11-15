@@ -1,4 +1,4 @@
-Federated Learning for IoMT Intrusion Detection
+///Federated Learning for IoMT Intrusion Detection////
 Code for the manuscript: “Federated Learning for IoMT Intrusion Detection: A Communication-Efficient Topology Comparison”
 This repository contains the complete implementation used in our experimental study comparing four federated learning (FL) topologies for intrusion detection in IoMT and general network environments:
 •	FedAvg (Centralized Federated Averaging)
@@ -7,13 +7,13 @@ This repository contains the complete implementation used in our experimental st
 •	Gossip Federated Learning
 All experiments in the manuscript were conducted under the no-attack (clean) setting.
 Attack functions exist in the code for future extension but are not enabled in any of the results reported in the paper.
-📁 Repository Structure
+////Repository Structure////
 /data_preprocessing.py      # Dataset loading, cleaning, scaling, Dirichlet non-IID split
 /fedavg.py                  # FedAvg implementation
 /fcwtl.py                   # FCWTL implementation
 /ring_fl.py                 # Ring topology implementation
 /gossip_fl.py               # Gossip FL implementation
-/utils.py                   # Metrics, communication cost, plotting
+/utils.py                   # Metrics, communication cos, plotting
 /main_experiments.ipynb     # Notebook to run all topologies and export results
 Datasets
 Experiments were performed on three benchmark datasets:
